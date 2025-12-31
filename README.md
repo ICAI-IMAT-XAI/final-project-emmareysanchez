@@ -15,7 +15,7 @@ Extract the dataset locally and ensure the image paths are correctly set in make
 pip install -r requirements.txt
 
 ### 3. Create Train / Validation / Test Splits
-python make_splits.py
+python scripts/make_splits.py
 
 This generates the processed dataset under:
 
@@ -36,6 +36,6 @@ This notebook contains:
 
 Run the actionable explainability experiment:
 
-python notebooks/actionable_xai.py
+python scripts/actionable_xai.py
 
 This script trains the BEFORE and AFTER models and saves the final comparison of confusion matrices.
